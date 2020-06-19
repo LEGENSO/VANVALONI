@@ -2090,7 +2090,7 @@ input, select, textarea {
 		color: white;
 		text-shadow: 0 0 0.5px rgba(68, 68, 68, 0.25);
 		text-align: center;
-		background: #ff9393 url("images/banner.svg") bottom center no-repeat;
+		background: #f1c0c0 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2355,9 +2355,9 @@ input, select, textarea {
 			background-color: #ffcccc;
 			background-image: url("images/"), url("../../images/intro.jpg");
 			background-repeat: repeat, no-repeat;
-			background-size: auto, cover;
+			background-size: auto, landscape;
 			background-position: top left, center 0;
-			background-attachment: fixed, fixed, fixed, fixed;
+			background-attachment: fixed, fixed;
 			font-family: 'Source Sans Pro', sans-serif;
 			font-size: 18pt;
 			line-height: 1.75em;
