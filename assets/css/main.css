@@ -83,11 +83,11 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		background-image: url("images/"), url("../../images/intro.jpg");
+		background-image: url("images/"), url("../../images/");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
+		background-attachment: fixed, fixed, fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -2353,11 +2353,11 @@ input, select, textarea {
 		/* Basic */
 		body {
 			background-color: #ffffff;
-			background-image: url("images/"), url("../../images/intro.jpg");
+			background-image: url("images/"), url("../../images/intro2.jpg");
 			background-repeat: repeat, no-repeat;
 			background-size: auto, cover;
 			background-position: top left, center 0;
-			background-attachment: fixed, fixed;
+			background-attachment: fixed, fixed, fixed, fixed;
 			font-family: 'Source Sans Pro', sans-serif;
 			font-size: 18pt;
 			line-height: 1.75em;
