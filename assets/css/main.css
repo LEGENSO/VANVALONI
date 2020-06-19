@@ -2354,8 +2354,10 @@ input, select, textarea {
 		body {
 			background-color: #ffcccc;
 			background-image: url("images/"), url("../../images/intro.jpg");
+			width: fit-content;
+			height: fit-content;
 			background-repeat: repeat, no-repeat;
-			background-size: auto, landscape;
+			background-size: auto, vertical;
 			background-position: top left, center 0;
 			background-attachment: fixed, fixed;
 			font-family: 'Source Sans Pro', sans-serif;
