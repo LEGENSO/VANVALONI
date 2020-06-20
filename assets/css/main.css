@@ -83,10 +83,9 @@ input, select, textarea {
 
 	body {
 		background-color: #ffcccc;
-		background-image: url("images/"), url("../../images/");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
+		background: url("../../images/intro.jpg") no-repeat top center;
+		background-size: cover;
+		height: 100vh;
 		background-attachment: fixed, fixed, fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
@@ -2090,7 +2089,7 @@ input, select, textarea {
 		color: white;
 		text-shadow: 0 0 0.5px rgba(68, 68, 68, 0.25);
 		text-align: center;
-		background: wheat url("images/banner.svg") bottom center no-repeat;
+		background: rgb(255, 204, 204) url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2353,20 +2352,17 @@ input, select, textarea {
 		/* Basic */
 		body {
 			background-color: #ffcccc;
-			background-image: url("images/"), url("../../images/");
-			width: fit-content;
-			height: fit-content;
-			background-repeat: repeat, no-repeat;
-			background-size: auto, vertical;
-			background-position: top left, center 0;
-			background-attachment: fixed, fixed;
+			background: url("../../images/intro.jpg") no-repeat top center;
+			background-size: cover;
+			height: 100vh;
+			background-attachment: fixed, fixed, fixed, fixed;
 			font-family: 'Source Sans Pro', sans-serif;
 			font-size: 18pt;
 			line-height: 1.75em;
 			font-weight: 300;
 			letter-spacing: 1px;
 			color: #3a3939;
-			text-shadow: 0 0 0.5px rgba(160, 160, 160, 0.25);
+			text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 			-webkit-text-stroke: 0.25px;
 		}
 
